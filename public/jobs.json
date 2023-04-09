@@ -1,0 +1,182 @@
+[
+    {  
+      "id": 1,
+      "company_logo": "https://example.com/logo1.png",
+      "job_title": "Software Engineer",
+      "company_name": "ABC Tech",
+      "remote_or_onsite": "Remote",
+      "location": "New York, NY",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$100,000 - $120,000",
+      "job_description": "We are looking for a skilled software engineer to join our team and develop cutting-edge web applications.",
+      "job_responsibility": "Design, code, test, debug, and maintain software applications using modern programming languages and frameworks. Collaborate with cross-functional teams to gather and analyze requirements. Troubleshoot and resolve software defects and issues. Participate in code reviews and provide feedback to improve code quality.",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+      "experiences": "3+ years of experience in software development.",
+      "contact_information": {
+        "phone": "123-456-7890",
+        "email": "jobs@abctech.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "https://example.com/logo2.png",
+      "job_title": "Data Scientist",
+      "company_name": "XYZ Analytics",
+      "remote_or_onsite": "Onsite",
+      "location": "San Francisco, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$120,000 - $150,000",
+      "job_description": "We are seeking a talented data scientist to analyze large data sets and provide insights to drive business decisions.",
+      "job_responsibility": "Identify, clean, and analyze data from multiple sources. Develop and implement machine learning models to solve complex business problems. Communicate findings to stakeholders in a clear and concise manner. Collaborate with cross-functional teams to integrate data-driven insights into business strategies.",
+      "educational_requirements": "Master's or PhD in Computer Science, Statistics, or related field.",
+      "experiences": "5+ years of experience in data science or related roles.",
+      "contact_information": {
+        "phone": "987-654-3210",
+        "email": "careers@xyzanalytics.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "https://example.com/logo3.png",
+      "job_title": "Marketing Manager",
+      "company_name": "LMN Marketing",
+      "remote_or_onsite": "Remote",
+      "location": "Chicago, IL",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "job_description": "We are looking for an experienced marketing manager to develop and implement marketing strategies for our clients.",
+      "job_responsibility": "Create and execute marketing plans to achieve client's business goals. Develop and manage marketing campaigns across various channels. Analyze marketing data and provide insights to optimize performance. Collaborate with clients to understand their marketing objectives and provide strategic recommendations.",
+      "educational_requirements": "Bachelor's degree in Marketing or related field.",
+      "experiences": "3+ years of experience in marketing or related roles.",
+      "contact_information": {
+        "phone": "456-789-0123",
+        "email": "info@lmnmarketing.com"
+      }
+    },
+    {
+        "id": 4,
+        "company_logo": "https://example.com/logo4.png",
+        "job_title": "Graphic Designer",
+        "company_name": "PQR Designs",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$30 - $40 per hour",
+        "job_description": "We are seeking a creative and talented graphic designer to create visual content for various mediums.",
+        "job_responsibility": "Design and create visual assets such as logos, banners, social media graphics, and marketing materials. Collaborate with clients and team members to understand design requirements. Stay up-to-date with design trends and software tools. Provide creative input and recommendations for design projects.",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+        "experiences": "2+ years of experience in graphic design or related roles.",
+        "contact_information": {
+          "phone": "789-012-3456",
+          "email": "designjobs@pqrdesigns.com"
+        }
+      },
+      {
+        "id": 5,
+        "company_logo": "https://example.com/logo5.png",
+        "job_title": "Accountant",
+        "company_name": "JKL Financials",
+        "remote_or_onsite": "Onsite",
+        "location": "Dallas, TX",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$60,000 - $70,000",
+        "job_description": "We are looking for a detail-oriented and skilled accountant to manage financial records and provide financial analysis.",
+        "job_responsibility": "Manage and maintain financial records, including general ledger, accounts payable, and accounts receivable. Prepare financial statements and reports. Perform financial analysis and provide insights to improve financial performance. Ensure compliance with tax regulations and financial reporting standards.",
+        "educational_requirements": "Bachelor's degree in Accounting or related field. CPA certification preferred.",
+        "experiences": "3+ years of experience in accounting or related roles.",
+        "contact_information": {
+          "phone": "123-789-4560",
+          "email": "accountingjobs@jklfinancials.com"
+        }
+      },
+        {
+          "id": 6,
+          "company_logo": "https://example.com/logo6.png",
+          "job_title": "Software Engineer",
+          "company_name": "XYZ Tech",
+          "remote_or_onsite": "Remote",
+          "location": "San Francisco, CA",
+          "fulltime_or_parttime": "Full-time",
+          "salary": "$80,000 - $100,000",
+          "job_description": "We are seeking a talented software engineer to develop and maintain software applications.",
+          "job_responsibility": "Design, code, test, and debug software applications. Collaborate with cross-functional teams to gather requirements and develop solutions. Maintain code quality and ensure timely delivery of software projects. Stay up-to-date with emerging technologies and industry trends.",
+          "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+          "experiences": "3+ years of experience in software development or related roles.",
+          "contact_information": {
+            "phone": "456-789-0123",
+            "email": "techjobs@xyztech.com"
+          }
+        },
+        {
+          "id": 7,
+          "company_logo": "https://example.com/logo7.png",
+          "job_title": "Marketing Manager",
+          "company_name": "ABC Marketing",
+          "remote_or_onsite": "Onsite",
+          "location": "New York, NY",
+          "fulltime_or_parttime": "Full-time",
+          "salary": "$70,000 - $90,000",
+          "job_description": "We are looking for a strategic and experienced marketing manager to develop and implement marketing strategies.",
+          "job_responsibility": "Create and execute marketing plans and campaigns. Conduct market research and analysis. Develop and manage marketing budgets. Lead marketing team and collaborate with other departments. Measure and report on marketing performance.",
+          "educational_requirements": "Bachelor's degree in Marketing or related field.",
+          "experiences": "5+ years of experience in marketing or related roles.",
+          "contact_information": {
+            "phone": "789-123-4567",
+            "email": "marketingjobs@abcmarketing.com"
+          }
+        },
+        {
+          "id": 8,
+          "company_logo": "https://example.com/logo8.png",
+          "job_title": "Data Scientist",
+          "company_name": "DEF Analytics",
+          "remote_or_onsite": "Remote",
+          "location": "Chicago, IL",
+          "fulltime_or_parttime": "Full-time",
+          "salary": "$90,000 - $110,000",
+          "job_description": "We are seeking a skilled data scientist to analyze and interpret complex data sets.",
+          "job_responsibility": "Analyze large data sets and identify patterns, trends, and insights. Develop predictive models and algorithms. Collaborate with business stakeholders to understand requirements and provide data-driven recommendations. Communicate findings and insights to non-technical stakeholders.",
+          "educational_requirements": "Master's degree in Data Science or related field.",
+          "experiences": "3+ years of experience in data science or related roles.",
+          "contact_information": {
+            "phone": "567-890-1234",
+            "email": "analyticsjobs@defanalytics.com"
+          }
+        },
+        {
+            "id": 10,
+            "company_logo": "https://example.com/logo10.png",
+            "job_title": "Graphic Designer",
+            "company_name": "PQR Creative Agency",
+            "remote_or_onsite": "Onsite",
+            "location": "Los Angeles, CA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$50,000 - $70,000",
+            "job_description": "We are looking for a creative and talented graphic designer to create visually appealing designs for various mediums.",
+            "job_responsibility": "Design and create graphics for digital and print media, including websites, social media, advertisements, and marketing collaterals. Collaborate with clients and internal teams to understand design requirements. Present design concepts and iterate based on feedback. Stay updated with design trends and best practices.",
+            "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+            "experiences": "2+ years of experience in graphic design or related roles.",
+            "contact_information": {
+              "phone": "123-456-7890",
+              "email": "designjobs@pqragency.com"
+            }
+          },
+          {
+            "id": 11,
+            "company_logo": "https://example.com/logo11.png",
+            "job_title": "Customer Service Representative",
+            "company_name": "GHI Customer Support",
+            "remote_or_onsite": "Onsite",
+            "location": "Dallas, TX",
+            "fulltime_or_parttime": "Part-time",
+            "salary": "$15 - $18 per hour",
+            "job_description": "We are seeking a friendly and customer-oriented individual to provide exceptional customer service and support.",
+            "job_responsibility": "Respond to customer inquiries and resolve issues via phone, email, or chat. Provide product information and assistance. Process orders, returns, and exchanges. Maintain accurate customer records. Handle and resolve customer complaints professionally.",
+            "educational_requirements": "High school diploma or equivalent.",
+            "experiences": "1+ year of customer service experience preferred.",
+            "contact_information": {
+              "phone": "234-567-8901",
+              "email": "customersupport@ghics.com"
+            }
+          }
+        ]

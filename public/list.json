@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "logo": "category1.png",
+      "name": "Category 1",
+      "jobsAvailable": 10
+    },
+    {
+      "id": 2,
+      "logo": "category2.png",
+      "name": "Category 2",
+      "jobsAvailable": 5
+    },
+    {
+      "id": 3,
+      "logo": "category3.png",
+      "name": "Category 3",
+      "jobsAvailable": 7
+    },
+    {
+      "id": 4,
+      "logo": "category4.png",
+      "name": "Category 4",
+      "jobsAvailable": 3
+    }
+  ]
