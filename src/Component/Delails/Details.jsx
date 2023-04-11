@@ -20,6 +20,9 @@ const Details = ({ params }) => {
             })
 
     }, [])
+    const addToJob = () =>{
+        <h1>hello</h1>
+    }
     // console.log(jobData);
     return (
         <div className=' flex'>
@@ -41,7 +44,7 @@ const Details = ({ params }) => {
                     <p><span className='font-bold'>Phone: </span> {jobData.phone}</p>
                     <p><span className='font-bold'>Email: </span> {jobData.email}</p>
                     <p> <span className='font-bold'>Address:</span> {jobData.location}</p>
-                    <button className='btn w-full my-4 bg-primary'>Apply Now</button>
+                    <button onClick={()=>{addToJob(jobData.id)}} className='btn w-full my-4 bg-primary'>Apply Now</button>
             </div>
         </div>
     );

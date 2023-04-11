@@ -14,6 +14,7 @@ import Blog from './Component/Blog/Blog';
 import Applied from './Component/Applied/Applied';
 import Details from './Component/Delails/Details';
 import Statistics from './Component/Statistics/Statistics';
+import ErrorPage from './Component/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: '/applied',
         element: <Applied></Applied>
+      },
+      {
+        path: '/*',
+        element: <ErrorPage></ErrorPage>
       }
     ]
   }

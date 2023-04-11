@@ -5,6 +5,10 @@ import Category from '../Category/Category';
 
 const Home = () => {
     const jobs = useLoaderData();
+
+    const navigator = ()=>{
+        
+    }
     
     return (
         <div className='mx-40'>
