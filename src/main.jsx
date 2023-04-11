@@ -13,6 +13,7 @@ import Statitices from './Component/Statistics/Statistics';
 import Blog from './Component/Blog/Blog';
 import Applied from './Component/Applied/Applied';
 import Details from './Component/Delails/Details';
+import Statistics from './Component/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -30,8 +31,8 @@ const router = createBrowserRouter([
         loader: ({params}) => fetch("/jobs.json")
       },
       {
-        path: 'statistic',
-        element: <Statitices></Statitices>
+        path: '/statistic',
+        element: <Statistics></Statistics>
       },
       {
         path: '/blog',

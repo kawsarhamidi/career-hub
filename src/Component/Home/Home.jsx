@@ -7,12 +7,12 @@ const Home = () => {
     const jobs = useLoaderData();
     
     return (
-        <div className=''>
-           <div className='md:flex md:justify-around'>
-            <div className="">
-                <h1>One Step Closer To Your <span>Dream Job</span></h1>
+        <div className='mx-40'>
+           <div className='md:flex md:justify-around '>
+            <div className=" text-left my-3">
+                <h1 className='my-3 font-bold text-5xl'>One Step Closer To Your <span className=' text-primary'>Dream Job</span></h1>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
-                <button className='btn btn-primary'>Get Started</button>
+                <button className='btn btn-primary my-3'>Get Started</button>
            </div>
            <div className="">
                 <img src="../../../public/hardy.png" alt="" />
@@ -21,7 +21,7 @@ const Home = () => {
         <div className="">
             <div className="my-10">
             <p className='flex font-bold text-5xl justify-center text-center'>job category</p>
-        <p></p>
+        <p className=' my-4 flex justify-center text-center'>fund you need jobs</p>
             </div>
         <div className="grid md:grid-cols-4 gap-5">
             {
@@ -33,9 +33,9 @@ const Home = () => {
         </div>
         </div>
         <div className="">
-            <div className="my-10">
+            <div className="mt-10 ">
             <p className='my-10 file:flex font-bold text-5xl justify-center text-center'>job title</p>
-                <p></p>
+                <p className=' my-4 flex justify-center text-center'>choose you job</p>
             </div>
         <div className="grid grid-cols-2 gap-4 ">
         {

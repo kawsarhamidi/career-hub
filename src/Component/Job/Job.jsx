@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Job = ({ job }) => {
     const {id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary } = job;
+    const navigator = useNavigate();
     return (
         <div className='card bg-orange-400'>
             <div className="card-body">
@@ -19,6 +20,7 @@ const Job = ({ job }) => {
                 <p>{salary}</p>
             </div>
             <div className="">
+                {/* <button onClick={()=>navigator('/job/${id}')}>View Details</button> */}
             <button className='btn bg-primary'><Link to={`/job/${id}`}>View Details</Link></button>
             </div>
             </div>
