@@ -1,17 +1,17 @@
-const addToDb = id => {
-    let appliedJobs = {}
-    const storedCart = localStorage.getItem('applied-jobs')
-    if(storedCart){
-        appliedJobs = JSON.parse(storedCart)
-    }
-    const quantity = appliedJobs[id]
-    if(quantity){
-        const newQuantity = quantity + 1
-        appliedJobs[id] = newQuantity
-    }
-    else{
-        appliedJobs[id] = 1
-    }
+import { getStoredJobs } from "../Utils/fakeDB";
 
-    localStorage.setItem('applied-jobs', JSON.stringify(appliedJobs))
-}
+export const localStorage = async () => {
+  const applyData = await fetch("/FeaturedJobs.json");
+  const jobs = await applyData.json();
+  const savedApplayJobs = getStoredJobs();
+  let JobsArray = [];
+
+  for (const id in savedApplayJobs) {
+    const foundApplyJobs = jobs.find((job) => job.id === id);
+    if (foundApplyJobs) {
+      foundApplyJobs.quantity = savedApplayJobs[id];
+      JobsArray.push(foundApplyJobs);
+    }
+  }
+  return {JobsArray, jobs}
+};
