@@ -13,6 +13,8 @@
 //         appliedJobs[id] = 1
 //     }
 
+
+
 //     localStorage.setItem('applied-jobs', JSON.stringify(appliedJobs))
 // }
 

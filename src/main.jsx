@@ -14,6 +14,7 @@ import Applied from './Component/Applied/Applied';
 import Details from './Component/Delails/Details';
 import Statistics from './Component/Statistics/Statistics';
 import ErrorPage from './Component/ErrorPage/ErrorPage';
+import { localStorage } from './Component/Loaders/Loaders';
 
 const router = createBrowserRouter([
   {
@@ -40,7 +41,9 @@ const router = createBrowserRouter([
       },
       {
         path: '/applied',
-        element: <Applied></Applied>
+        element: <Applied></Applied>,
+        loader: localStorage
+
       },
       {
         path: '/*',

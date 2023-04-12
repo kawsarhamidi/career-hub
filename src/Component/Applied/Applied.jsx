@@ -4,21 +4,20 @@ import { Link, useLoaderData } from "react-router-dom";
 import AppliedJob from './AppliedJob';
 
 const Applied = () => {
-  const { JobsArray } = useLoaderData(); 
-
+  const JobsArray  = useLoaderData(); 
+ const [jobArray, setJobArray] = useState(JobsArray);
  
   const [selectItem, setSelectItem] = useState("");
 
   const handleChange = (event) => {
     setSelectItem(event.target.value);
   };
-  const filterAppliedItem = JobsArray.filter(
+  const filterAppliedItem = jobArray.filter(
     (jobItem) => jobItem.jobType === selectItem || selectItem === ""
   );
-  console.log(filterAppliedItem);
     return (
         <div>
-            {/* <div className="text-end mb-4 max-w-6xl mx-auto mt-5">
+            <div className="text-end mb-4 max-w-6xl mx-auto mt-5">
         <select
           value={selectItem}
           onChange={handleChange}
@@ -28,7 +27,7 @@ const Applied = () => {
           <option value="remote_or_onsite">Remote</option>
           <option value="fulltime_or_parttime">Onsite</option>
         </select>
-      </div> */}
+      </div>
       
       
       <div>
@@ -52,6 +51,3 @@ const Applied = () => {
 
 export default Applied;
 
-// <Link to={`/jobDetails/${id}`} className="text-right">
-//                   <button className="btn bg-purple-800">View Details</button>
-//                 </Link>

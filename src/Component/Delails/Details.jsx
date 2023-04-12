@@ -53,7 +53,8 @@ const Details = () => {
                     <p><span className='font-bold'>Email: </span> {jobData.email}</p>
                     <p> <span className='font-bold'>Address:</span> {jobData.location}</p>
                     <button onClick={() => { (addToJob(id)) 
-                }} className='btn w-full my-4 bg-primary'>Apply Now</button>
+                }} className='btn w-full my-4 bg-primary'>{" "}
+                Apply Now{" "}</button>
             </div>
         </div>
     );
