@@ -1,7 +1,9 @@
-import { getStoredJobs } from "../Utils/fakeDB";
+
+
+import { getStoredJobs } from "../../Utilis/fackDb";
 
 export const localStorage = async () => {
-  const applyData = await fetch("/FeaturedJobs.json");
+  const applyData = await fetch("/jobs.json");
   const jobs = await applyData.json();
   const savedApplyJobs = getStoredJobs();
   let JobsArray = [];
