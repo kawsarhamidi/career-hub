@@ -3,6 +3,7 @@ import React from 'react';
 import { Link, useLoaderData } from "react-router-dom";
 
 const Applied = ({job}) => {
+  console.log(job);
     const {id, company_logo, job_title, company_name, remote_or_onsite, location, fulltime_or_parttime, salary } = job;
     return (
         <div>
@@ -38,7 +39,7 @@ const Applied = ({job}) => {
                     </div>
                   </div>
                 </div>
-                <Link to={`/job/${id}`} className="text-right">
+                <Link to={`/jobDetails/${id}`} className="text-right">
                   <button className="btn bg-purple-800">View Details</button>
                 </Link>
               </div>

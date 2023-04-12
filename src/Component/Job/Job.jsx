@@ -21,7 +21,7 @@ const Job = ({ job }) => {
             </div>
             <div className="">
                 {/* <button onClick={()=>navigator('/job/${id}')}>View Details</button> */}
-            <Link to={`/job/${id}`}><button className='btn bg-primary'>View Details</button></Link>
+            <Link to={`/jobDetails/${id}`}><button className='btn bg-primary'>View Details</button></Link>
             </div>
             </div>
         </div>

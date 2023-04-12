@@ -18,7 +18,7 @@
 
   // ======
 
-  const addToDb = (detailId) => {
+  const addToDb = (id) => {
     let applyJobs = {};
   
     const storedJobs = localStorage.getItem("applyJobs");
@@ -26,11 +26,11 @@
       applyJobs = JSON.parse(storedJobs);
     }
   
-    const applyQuantityJobs = applyJobs[detailId];
+    const applyQuantityJobs = applyJobs[id];
     if (applyQuantityJobs) {
-      applyJobs[detailId] = applyQuantityJobs + 1;
+      applyJobs[id] = applyQuantityJobs + 1;
     } else {
-      applyJobs[detailId] = 1;
+      applyJobs[id] = 1;
     }
   
     localStorage.setItem("applyJobs", JSON.stringify(applyJobs));

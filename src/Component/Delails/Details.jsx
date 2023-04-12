@@ -2,16 +2,16 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { addToDb } from '../../Utilis/fackDb';
 
-const Details = ({ params }) => {
+const Details = () => {
     const jobDetails = useLoaderData();
     const [jobData, setJobData] = useState({});
-    let { detailId } = useParams();
-    // console.log(detailId);
+    let { id } = useParams();
+    // console.log(id);
     useEffect(() => {
         fetch("../jobs.json")
             .then(res => res.json())
             .then(data => {
-                const single = data.find(jobData => jobData.id == detailId)
+                const single = data.find(jobData => jobData.id == id)
                 if (single) {
                     setJobData(single)
                 }
@@ -27,8 +27,9 @@ const Details = ({ params }) => {
         //   fetchJobs();
 
     }, [])
-    const addToJob = (detailId) =>{
-        addToDb(detailId);
+    const addToJob = (id) =>{
+        addToDb(id);
+        console.log(id);
     }
     // console.log(jobData);
     return (
@@ -51,10 +52,7 @@ const Details = ({ params }) => {
                     <p><span className='font-bold'>Phone: </span> {jobData.phone}</p>
                     <p><span className='font-bold'>Email: </span> {jobData.email}</p>
                     <p> <span className='font-bold'>Address:</span> {jobData.location}</p>
-                    <button onClick={() => {
-                  if (addToJob(detailId)) {
-                    alert("Applied to job!");
-                  }
+                    <button onClick={() => { (addToJob(id)) 
                 }} className='btn w-full my-4 bg-primary'>Apply Now</button>
             </div>
         </div>
