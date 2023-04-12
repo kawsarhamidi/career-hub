@@ -41,7 +41,7 @@ const Home = () => {
             <p className='my-10 file:flex font-bold text-5xl justify-center text-center'>job title</p>
                 <p className=' my-4 flex justify-center text-center'>choose you job</p>
             </div>
-        <div className="grid grid-cols-2 gap-4 ">
+        <div className="grid md:grid-cols-2 gap-4 ">
         {
             jobs.map(job => <Job
             key={job.id}
